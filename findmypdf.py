@@ -24,6 +24,6 @@ if(menu==1):
     url += '"' + livro + '"'
     url += " filetype:pdf"
     webbrowser.open(url)
-    print ("Busca realizada!")
+    print ("Search Completed!")
 else:
     raise SystemExit

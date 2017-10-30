@@ -1,5 +1,5 @@
 # FINDmyPDF
-This is a software coded in Python that maybe may help you to search and find your favorite .PDF.
+This is a software coded in Python that maybe may help you to search and find your favorite **.PDF**.
 
 **Instructions:**
 To use that, just open your terminal `(CTRL + ALT + T)` and download it:

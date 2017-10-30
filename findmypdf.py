@@ -20,7 +20,7 @@ menu = int(input("Your choice: "))
 
 if(menu==1):
     url = "https://www.google.com.br/search?q="
-    livro = str(raw_input("Insira o LIVRO desejado: "))
+    livro = str(input("Insira o LIVRO desejado: "))
     url += '"' + livro + '"'
     url += " filetype:pdf"
     webbrowser.open(url)

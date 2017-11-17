@@ -1,5 +1,5 @@
 # FINDmyPDF
-This is a software coded in Python that maybe may help you to search and find your favorite **.PDF**.
+Este é um software codificado em Python3 que irá lhe ajudar a procurar e encontrar o seu **.PDF** **FAVORITO!**
 
 ![Screenshot_1](http://genius-go.com/kindeditor/attached/image/20171117/20171117095407_49994.png)
 

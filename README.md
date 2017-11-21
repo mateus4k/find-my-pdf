@@ -6,7 +6,7 @@ Este é um software codificado em Python3 que irá lhe ajudar a procurar e encon
 **Instructions:**
 To use that, just open your terminal `(CTRL + ALT + T)` and download it:
 ```
-git clone https://github.com/mateus4k/FINDmyPDF
+git clone https://github.com/LoockUnderwood/FINDmyPDF
 ```
 After that, type:
 ```

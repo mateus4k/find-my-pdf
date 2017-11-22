@@ -1,5 +1,5 @@
 #!/usr/bin/env python 
-# -*- coding: utf-8 -*-
+#coding: utf-8
 
 import webbrowser
 import time
@@ -17,23 +17,21 @@ print("""
  | BY: Mateus4K / Fork: Loock |
  X----------------------------X
  """)
-                                                                         
 
-# Local onde o usuário irá escolher a opção
+# user will choose the option
 time.sleep(.1)
-print("\n 1 - Pesquisar")
+print("\n 1 - Search")
 print("\n 2 - Exit")
 menu = int(input("\n OPTION: "))
 
-# Parte o qual o programa irá colocar o nome do PDF o qual deseja
-# E o programa usará o Google como fonte de pesquisa
+# the program will put the name of the .PDF you want and use google as search engine
 if(menu==1):
     url = "https://www.google.com/search?q="
-    book = str(input("\n [x] INSIRA O PDF DESEJADO: "))
+    book = str(input("\n [x] ENTER THE DESIRED .PDF: "))
     url += '"' + book + '"'
     url += " filetype:pdf"
-    webbrowser.open(url) # parte o qual o programa manda o navegador padrão abrir a URL que já está no programa
-    print ("\n [!] PESQUISA CONCLUÍDA!!")
-    time.sleep(4)
+    webbrowser.open(url) #open the url in browser
+    print ("\n [!] SEARCH COMPLETED !!")
+    time.sleep(3)
 else:
     raise SystemExit

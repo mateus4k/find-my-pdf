@@ -1,8 +1,12 @@
-#!/usr/bin/env python 
-#coding: utf-8
-
 import webbrowser
 import time
+import os
+
+#clears the terminal before run code
+if os.name == "nt":
+    os.system("cls")
+else:
+    os.system("clear")
 
 print("""
 
@@ -12,10 +16,6 @@ print("""
  ██╔══╝  ██║██║╚██╗██║██║  ██║██║╚██╔╝██║  ╚██╔╝  ██╔═══╝ ██║  ██║██╔══╝  
  ██║     ██║██║ ╚████║██████╔╝██║ ╚═╝ ██║   ██║   ██║     ██████╔╝██║     
  ╚═╝     ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝     ╚═╝   ╚═╝   ╚═╝     ╚═════╝ ╚═╝
-
- X----------------------------X
- | BY: Mateus4K / Fork: Loock |
- X----------------------------X
  """)
 
 # user will choose the option
@@ -26,10 +26,9 @@ menu = int(input("\n OPTION: "))
 
 # the program will put the name of the .PDF you want and use google as search engine
 if(menu==1):
-    url = "https://www.google.com/search?q="
     book = str(input("\n [x] ENTER THE DESIRED .PDF: "))
-    url += '"' + book + '"'
-    url += " filetype:pdf"
+    book.replace("","+"); #replace blank spaces
+    url = 'https://www.google.com/search?q="' + book + '"+filetype%3Apdf'
     webbrowser.open(url) #open the url in browser
     print ("\n [!] SEARCH COMPLETED !!")
     time.sleep(3)

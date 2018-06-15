@@ -1,7 +1,7 @@
 # FINDmyPDF
 This is a software encoded in Python3 that will help you search and find yours *favorite .PDF!*
 
-![Screenshot_1](http://genius-go.com/kindeditor/attached/image/20171117/20171117095407_49994.png)
+![Screenshot_1](https://i.imgur.com/E3PhGke.png)
 
 **Instructions:**
 To use that, just open your terminal `(CTRL + ALT + T)` and download it:
@@ -16,4 +16,4 @@ And:
 ```
 python3 findmypdf.py
 ```
-
+Enjoy! :D
